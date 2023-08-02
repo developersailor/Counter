@@ -11,6 +11,7 @@
 		F6438D902A764FCD002FB331 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6438D8F2A764FCD002FB331 /* ContentView.swift */; };
 		F6438D922A764FCE002FB331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6438D912A764FCE002FB331 /* Assets.xcassets */; };
 		F6438D962A764FCE002FB331 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6438D952A764FCE002FB331 /* Preview Assets.xcassets */; };
+		F6F6F2D72A7A576600D3EEC7 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F6F2D62A7A576600D3EEC7 /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F6438D912A764FCE002FB331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6438D932A764FCE002FB331 /* Counter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Counter.entitlements; sourceTree = "<group>"; };
 		F6438D952A764FCE002FB331 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6F6F2D62A7A576600D3EEC7 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		F6438D8C2A764FCD002FB331 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				F6F6F2D62A7A576600D3EEC7 /* CounterViewModel.swift */,
 				F6438D8D2A764FCD002FB331 /* CounterApp.swift */,
 				F6438D8F2A764FCD002FB331 /* ContentView.swift */,
 				F6438D912A764FCE002FB331 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			files = (
 				F6438D902A764FCD002FB331 /* ContentView.swift in Sources */,
 				F6438D8E2A764FCD002FB331 /* CounterApp.swift in Sources */,
+				F6F6F2D72A7A576600D3EEC7 /* CounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
